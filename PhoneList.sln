@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractiveDirectory", "..\..\..\..\..\Hajoca\HajocaNet\PhoneList\InteractiveDirectory\InteractiveDirectory.csproj", "{B1EF88B6-67DD-4502-A976-5540C780F3D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractiveDirectory.Tests", "..\..\..\..\..\Hajoca\HajocaNet\PhoneList\InteractiveDirectory.Tests\InteractiveDirectory.Tests.csproj", "{FCB5CD67-B9E9-4540-8BD5-3EA1BAAB74B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractiveDirectory.Library", "..\..\..\..\..\Hajoca\HajocaNet\PhoneList\InteractiveDirectory.Library\InteractiveDirectory.Library.csproj", "{D3403223-B339-46B1-8033-BA8143F3760A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InteractiveDirectoryBuilder", "..\..\..\..\..\Hajoca\HajocaNet\PhoneList\InteractiveDirectoryBuilder\InteractiveDirectoryBuilder.csproj", "{AC3FD5FC-65E9-4A90-83ED-DE88D57C0374}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1EF88B6-67DD-4502-A976-5540C780F3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EF88B6-67DD-4502-A976-5540C780F3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EF88B6-67DD-4502-A976-5540C780F3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EF88B6-67DD-4502-A976-5540C780F3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB5CD67-B9E9-4540-8BD5-3EA1BAAB74B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB5CD67-B9E9-4540-8BD5-3EA1BAAB74B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB5CD67-B9E9-4540-8BD5-3EA1BAAB74B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB5CD67-B9E9-4540-8BD5-3EA1BAAB74B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3403223-B339-46B1-8033-BA8143F3760A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3403223-B339-46B1-8033-BA8143F3760A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3403223-B339-46B1-8033-BA8143F3760A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3403223-B339-46B1-8033-BA8143F3760A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3FD5FC-65E9-4A90-83ED-DE88D57C0374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3FD5FC-65E9-4A90-83ED-DE88D57C0374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3FD5FC-65E9-4A90-83ED-DE88D57C0374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3FD5FC-65E9-4A90-83ED-DE88D57C0374}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2352A145-F239-4A78-B608-A969C55224E3}
+	EndGlobalSection
+EndGlobal
