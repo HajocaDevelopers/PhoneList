@@ -775,7 +775,7 @@ namespace InteractiveDirectory.Services
             FileSet _fs = new FileSet();
             using (OleDbConnection _cn = new OleDbConnection(new CommonFunctions().ConnString))
             {
-                _da.SelectCommand = new OleDbCommand("Select pcren,a.pc,pcname,pcdiv,pcmgr,memail,pcstre,pcstct,pcstst,b8,pc10,pcmgr2,memai2,pcadd2,pccity,pcst,crdmgr,cremai,mgrid,pccod0,LATITUDE,LONGITUDE from HAJ.PRFCTRN a, HAJ.PCSYSTEM b, weblib.pccoords c where a.PC=b.PCACTU and a.PC=c.PC and b.PCACTU=c.PC and pcclos=0 and substring(digits(ifnull(nullif(pcstrt,0),202001)),5,2) ||'/'||'01'||'/'||substring(digits(ifnull(nullif(pcstrt,0),202001)),1,4)<=curdate() and (PCTYPE=91 OR PCTYPE=93) and pcdelt='' order by a.pc for read only", _cn);
+                _da.SelectCommand = new OleDbCommand("Select pcren,a.pc,pcname,pcdiv,pcmgr,memail,pcstre,pcstct,pcstst,b8,pc10,pcmgr2,memai2,pcadd2,pccity,pcst,crdmgr,cremai,mgrid,pccod0,LATITUDE,LONGITUDE from HAJ.PRFCTRN a, HAJ.PCSYSTEM b, weblib.pccoords c where a.PC=b.PCACTU and a.PC=c.PC and b.PCACTU=c.PC and pcclos=0 and substring(digits(ifnull(nullif(pcstrt,0),202001)),5,2) ||'/'||'01'||'/'||substring(digits(ifnull(nullif(pcstrt,0),202001)),1,4)<=curdate() and (PCTYPE=91 OR PCTYPE=93 OR PCTYPE=98) and pcdelt='' order by a.pc for read only", _cn);
                 try
                 {               
                     _da.Fill(_ds);
