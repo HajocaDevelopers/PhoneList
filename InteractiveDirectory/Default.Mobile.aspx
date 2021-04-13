@@ -18,10 +18,7 @@
                 <input type="radio" name="listing" data-ng-model="listing" id="listingRS" value="iRS" data-rel="close">
                 <label for="listingRS">Region Support</label>
                 <input type="radio" name="listing" data-ng-model="listing" id="listingSC" value="iSC" data-rel="close">
-                <label for="listingSC">Service Centers</label>
-                <input type="radio" name="listing" data-ng-model="listing" id="listingSR"
-                    value="iSR" data-rel="close" />
-                <label for="listingSR">Showrooms</label>
+                <label for="listingSC">Nation Support Center</label>
             </fieldset>
             <br />
             <fieldset data-role="controlgroup" data-mini="true">

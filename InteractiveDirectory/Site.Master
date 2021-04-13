@@ -4,7 +4,7 @@
 
 <!DOCTYPE html>
 
-<html lang="en">
+<html id="ng-app" ng-app="interactiveDirectoryApp" lang="en">
 <head>
     <title></title>
 
@@ -19,28 +19,23 @@
             }
         }
     </script>
-    <!--<script src="scripts/jquery-2.1.0.min.js"></script>  -->
-    <script
-    src="https://code.jquery.com/jquery-2.2.4.min.js"
-    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-    crossorigin="anonymous"></script> 
+    <script src="scripts/jquery-2.1.0.min.js"></script>
     <script src="scripts/angular.min.js"></script>
     <script src="scripts/angular-cookies.min.js"></script>
     <script src="scripts/angular-resource.min.js"></script>
-    <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/ui-bootstrap-tpls-0.11.0.min.js"></script>
     <script type="text/javascript" src="app/controllers/default.js"></script>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAncQtniRe-qXIaZaqQPt4WeNMEeAb5RHA"></script>
-    <script src="scripts/angular-filter.js"></script>
     <link href="styles/bootstrap.min.css" rel="stylesheet" />
     <link href="styles/style.css" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <asp:ContentPlaceHolder ID="HeaderContent" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+<body ng-controller="appCtrl">
     <asp:ContentPlaceHolder ID="MainContent" runat="server">
     </asp:ContentPlaceHolder>
-    
+    <div style="clear: both; float: right; margin-right: 10px;">
+        <friendlyUrls:ViewSwitcher runat="server" />
+    </div>
 </body>
 </html>

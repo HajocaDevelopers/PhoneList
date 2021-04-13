@@ -24,10 +24,10 @@
     text-align: right;
 }
 
-#divHeaderRight div {
-    margin: 0 10px;
-    text-align: left;
-}
+    #divHeaderRight div {
+        margin: 0 10px;
+        text-align: left;
+    }
 
 #divTableContainer {
     border: 1px solid black;
@@ -55,99 +55,7 @@ div.blockContent {
 .tipSpan {
     cursor: default;
 }
-
-.nav-tabs {
-    border-bottom: 1px solid #ddd;
-}
-
-.nav-tabs .nav-item {
-    margin-bottom: -1px;
-}
-
-.nav-tabs .nav-item.show .nav-link,
-.nav-tabs .nav-link.active {
-    color: #464a4c;
-    background-color: #fff;
-    border-color: #ddd #ddd #fff;
-}
-
-
 /*#endregion */
-
-
-/*#region Region Map Section */
-
-#map,
-#accordionMenu {
-    height: 600px;
-    overflow-y: scroll;
-}
-
-.title {
-    font-weight: 600;
-}
-
-.panel-body {
-    padding: 0;
-}
-
-.panel-group .panel+.panel {
-    margin-top: 0;
-    border-top: 0;
-}
-
-.panel-group .panel {
-    border-radius: 0;
-}
-
-.panel-default>.panel-heading {
-    color: #333;
-    background-color: #fff;
-    border-color: #e4e5e7;
-    padding: 0;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.panel-default>.panel-heading a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-}
-
-.panel-default>.panel-heading a:after {
-    content: "";
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    float: right;
-    transition: transform .25s linear;
-    -webkit-transition: -webkit-transform .25s linear;
-}
-
-.panel-default>.panel-heading a[aria-expanded="true"] {
-    background-color: #eee;
-}
-
-.panel-default>.panel-heading a[aria-expanded="true"]:after {
-    content: "\e113";
-}
-
-.panel-default>.panel-heading a[aria-expanded="false"]:after {
-    content: "\e114";
-}
-
-
-/*#endregion */
-
 
 /*#region Page Footer */
 
@@ -164,9 +72,7 @@ div.blockContent {
     margin-top: 5px;
 }
 
-
 /*#endregion Page footer */
-
 
 /*#region Header and Footer Section of the Main Table */
 
@@ -174,9 +80,9 @@ div.blockContent {
     background-color: #4C8FFF;
 }
 
-.phoneDataHeader a {
-    color: white;
-}
+    .phoneDataHeader a {
+        color: white;
+    }
 
 .buttonColumn {
     padding: 0px;
@@ -187,8 +93,7 @@ div.blockContent {
 }
 
 .columnHeader {
-    vertical-align: middle !important;
-    /* Important used to override bootstrap*/
+    vertical-align: middle !important; /* Important used to override bootstrap*/
 }
 
 .smallColumnHeader {
@@ -228,10 +133,7 @@ div.blockContent {
     font-weight: 800;
     text-align: center;
 }
-
-
 /*#endregion Header Section of the Main Table */
-
 
 /*#region Detail Section of the Main Table */
 
@@ -270,12 +172,9 @@ div.blockContent {
     background-color: #FFFED3;
 }
 
-
 /*#endregion Detail Section of the Main Table */
 
-
 /*#region Tips Template */
-
 .modal-title img {
     margin-right: 30px;
 }
@@ -291,9 +190,9 @@ div.blockContent {
     padding: 3px 5px 2px 0px;
 }
 
-.tipsTip .glyphicon {
-    color: #428bca;
-}
+    .tipsTip .glyphicon {
+        color: #428bca;
+    }
 
 .tipsImage {
     margin: auto;
@@ -313,10 +212,7 @@ div.blockContent {
 .modal-footer {
     margin-top: 0px;
 }
-
-
 /* #endregion Tips Template */
-
 
 /*#region Bootstrap CSS Over-Write. */
 
@@ -341,12 +237,9 @@ pre {
     margin-bottom: 0px;
 }
 
-
 /* #endregion Bootstrap CSS Over-Write. */
 
-
 /*#region Mobile Styles */
-
 .phoneGroup {
     margin-top: 3px !important;
 }
@@ -357,10 +250,10 @@ pre {
 
 
 /* Set the title of the mobile pages to have more space.*/
-
 .ui-title {
     margin: 0 10% !important;
 }
+
 
 .jump-button {
     /*padding: 2px 5px !important;*/
@@ -373,9 +266,9 @@ pre {
     float: right;
 }
 
-.mobilePhoneDetail .ui-btn-inline {
-    margin: 0 0 0 10px !important;
-}
+    .mobilePhoneDetail .ui-btn-inline {
+        margin: 0 0 0 10px !important;
+    }
 
 .showDetails a span {
     font-weight: 200;
@@ -392,19 +285,18 @@ pre {
     font-size: 12px;
 }
 
-.detailLabel div:first-of-type {
-    margin: 5px 20px 0px 0px;
-}
+    .detailLabel div:first-of-type {
+        margin: 5px 20px 0px 0px;
+    }
 
 .mainLabel {
     margin-left: -8px;
 }
 
-.mainLabel div {
-    float: left;
-    margin: 4px 10px 0px 0px;
-    font-size: 14px;
-}
-
+    .mainLabel div {
+        float: left;
+        margin: 4px 10px 0px 0px;
+        font-size: 14px;
+    }
 
 /* #endregion Mobile Styles. */

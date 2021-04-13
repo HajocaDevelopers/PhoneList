@@ -1,0 +1,127 @@
+<ArrayOfKeyValueOfintstring xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
+                            xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <KeyValueOfintstring>
+    <Key>1</Key>
+    <Value>NORTHEAST REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>2</Key>
+    <Value>MOUNTAIN REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>3</Key>
+    <Value>EAST CENTRAL REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>4</Key>
+    <Value>GREAT LAKES REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>6</Key>
+    <Value>MID-SOUTH REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>7</Key>
+    <Value>NORTH CENTRAL REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>8</Key>
+    <Value>SOUTHWEST REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>11</Key>
+    <Value>NORTHWEST REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>12</Key>
+    <Value>SOUTH FLORIDA REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>13</Key>
+    <Value>CHESAPEAKE REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>140</Key>
+    <Value>NEW VENTURES PRIVATE LABEL REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>200</Key>
+    <Value>NORTH FLORIDA REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>300</Key>
+    <Value>CENTRAL REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>301</Key>
+    <Value>TEXAS REGION RECRUITING</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>302</Key>
+    <Value>FLORIDA HS REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>303</Key>
+    <Value>US WATERWORKS REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>304</Key>
+    <Value>ALL-TEX REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>305</Key>
+    <Value>CAROLINAS REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>306</Key>
+    <Value>SOUTHEAST REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>307</Key>
+    <Value>MOUNTAIN WEST REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>308</Key>
+    <Value>SOUTHERN CAL REG</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>310</Key>
+    <Value>SANDALE REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>315</Key>
+    <Value>HJC REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>320</Key>
+    <Value>SOUTHERN REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>400</Key>
+    <Value>BLODGETT REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>421</Key>
+    <Value>KSS _ NORTHEAST REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>449</Key>
+    <Value>NEW VENTURES PEABODY REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>450</Key>
+    <Value>NEW ENGLAND REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>470</Key>
+    <Value>KEYSTONE REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>755</Key>
+    <Value>KSS SOUTH CENTRAL REGION</Value>
+  </KeyValueOfintstring>
+  <KeyValueOfintstring>
+    <Key>978</Key>
+    <Value>NEW VENTURES HOSPITALITY REGION</Value>
+  </KeyValueOfintstring>
+</ArrayOfKeyValueOfintstring>

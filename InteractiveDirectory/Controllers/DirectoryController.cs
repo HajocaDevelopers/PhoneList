@@ -79,12 +79,5 @@ namespace InteractiveDirectory.Controllers
             return result;
         }
 
-        [HttpPost]
-        public dynamic GetProfitCenterDirectory(string view)
-        {
-
-            return Services.DirectoryItemServices.GetPcDirectory( view );//.Where(x => x.RegionNumber != null);
-        }
-
     }
 }
